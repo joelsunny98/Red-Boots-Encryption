@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <script src="encrypt.js"></script>
+</head>
+<body>
+    
+    <div class="center top-relative">
+        <div class="head">
+            <div class="title">RED BOOTS</div>
+            <p>Mustang_6~ZERO</p>
+        </div>
+        <div class="back">
+        <div class="content voilet0">
+            <span>Encryption</span>
+            <input class="f15pt" type="password" id="passcode" placeholder="KEY..." />
+        </div>
+        <div class="content voilet0">
+            <span>Enter the Message</span>
+            <textarea id="originalContent" onclick="eraseText()"></textarea>
+        </div>
+        <div class="content voilet0">
+            <span>Encrypted Form</span>
+            <textarea id="encryptedContent" readonly ></textarea>
+        </div>
+        <div class="content voilet0">
+            <span>Decrypted Form</span>
+            <textarea id="decryptedContent" readonly></textarea>
+        </div>
+        </div>
+        <button class="encrypt" onclick="webdevencrypt.setEncrypt('originalContent','encryptedContent','passcode'); eraseText()">Encrypt</button>
+        <button class= "encrypt" onclick="webdevencrypt.setDecrypt('originalContent','decryptedContent','passcode'); eraseText()" >Decrypt</button>
+
+    </div>
+</body>
+ 
+</html>

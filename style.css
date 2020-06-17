@@ -1,0 +1,119 @@
+body {
+    background-image: url(back.jpg);
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f15pt {
+    font-size: 15pt;
+}
+.head{
+    font-family: fantasy;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+.head p{
+    font-size: 25px;
+    font-family: fantasy;
+    color: white;
+    letter-spacing: 2px;
+}
+.content {
+    background-image: url(1.jpg);
+    padding: 10px;
+    font-size: 15pt;
+    color: #ffffff;
+    width: 100%;
+     
+}
+.voilet0 {
+   text-align: center;
+   border-radius: 10px;
+}
+
+.voilet2 {
+    background-color: #333;
+}
+textarea {
+    width: 100%;
+    opacity: 80%;
+    min-height: 100px;
+    border-radius: 20px;
+    color: #2b5876;
+}
+span{
+    color: ;
+    text-shadow: 3px 2px black;
+}       
+button{
+    align-content: center;
+    }
+
+.encrypt {
+    font-size: 24pt;
+    background-color: none; 
+    border-radius: 2px;
+    border: 2px solid #2b5876 ;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace
+}
+.encrypt:hover {    
+        background-color: #2b5876;
+        color: white;
+}
+ 
+.center {
+    width: 70%;
+    margin: auto;
+}
+#passcode {
+    border-radius: 3px;
+    padding: 6px;
+    border: 0px;
+    outline: none;
+}
+#passcode:focus {
+    border: 2px solid #530c96;
+}
+.top-relative {
+    top: 50px;
+    position: relative;
+}
+.top-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background-color: #fefefe;
+	padding: 5px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.ablock {
+	text-decoration: none;
+    color: #7c0abe;
+    font-size: 15pt;
+}
+.h35px {
+	height: 35px;
+}
+.txtbld {
+    font-weight: bold;
+}
+.prb12px {
+	position: relative;
+	bottom: 10px;
+}
+.w35px {
+	width: 35px;
+}
+#originalContent{
+     font-size: 20px;
+     font-family: 'Courier New', Courier, monospace;
+}
